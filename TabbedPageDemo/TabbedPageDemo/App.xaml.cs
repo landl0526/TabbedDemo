@@ -10,13 +10,7 @@ namespace TabbedPageDemo
         {
             InitializeComponent();
 
-            TabbedPage tabbed = new TabbedPage();
-            // First tab
-            tabbed.Children.Add(new NavigationPage(new MainPage()) { Title = "First" });
-            // Second tab
-            tabbed.Children.Add(new NavigationPage(new SecondPage()) { Title = "Second" });
-
-            MainPage = tabbed;
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

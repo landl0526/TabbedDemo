@@ -4,15 +4,10 @@
              xmlns:local="clr-namespace:TabbedPageDemo"
              x:Class="TabbedPageDemo.MainPage">
 
-    <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal" BackgroundColor="#D60000">
-            <Label x:Name="loginPlayer" VerticalTextAlignment="Center"/>
-        </StackLayout>
-    </NavigationPage.TitleView>
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" />
-        <Button Text="LoadTitle" Clicked="Button_Clicked" />
+        <Button Text="Push" Clicked="Button_Clicked" />
     </StackLayout>
 
 </ContentPage>

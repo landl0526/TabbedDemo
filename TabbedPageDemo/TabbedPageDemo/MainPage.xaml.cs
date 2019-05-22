@@ -20,7 +20,7 @@ namespace TabbedPageDemo
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            loginPlayer.Text = "PlayerName";
+            Navigation.PushAsync(new MyTabbedPage());
         }
     }
 }
